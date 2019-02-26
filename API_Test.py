@@ -13,7 +13,7 @@ for session in plays._plays:
 	
 	
 ###Top 100 Liste, webscraped
-from urllib.request import urlopen
+from urllib2 import urlopen
 from bs4 import BeautifulSoup
 quote_page = 'https://www.boardgamegeek.com/browse/boardgame'
 
